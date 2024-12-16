@@ -1,13 +1,13 @@
-##Same as get_height but the scale can be specified via macro set from the command that ran this function.
+##This is used to get the height of the hitbox based on the position of the eyes.
 
 ##Marker
-function hblib:internal/summon_marker
+function hblib:internal/non_uuid/summon_marker
 
 ##Maths
 function hblib:internal/maths
 
 #Finalize
-$execute store result storage hblib.hitbox full double $(scale) run data get storage hblib.hitbox full
+execute store result storage hblib.hitbox full double 0.01 run data get storage hblib.hitbox full
 
 #Remove "d"
 function hblib:internal/remove_d

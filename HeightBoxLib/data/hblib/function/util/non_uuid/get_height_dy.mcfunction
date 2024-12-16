@@ -1,13 +1,13 @@
-##Same as get_height but the scale can be specified via macro set from the command that ran this function.
+##Same as get_height but modified to be able to be used for selectors as position
 
 ##Marker
-function hblib:internal/summon_marker
+function hblib:internal/non_uuid/summon_marker
 
 ##Maths
 function hblib:internal/maths
 
 #Finalize
-$execute store result storage hblib.hitbox full double $(scale) run data get storage hblib.hitbox full
+execute store result storage hblib.hitbox modified double 0.01 run scoreboard players get #EyeHeight hblib.number
 
 #Remove "d"
 function hblib:internal/remove_d

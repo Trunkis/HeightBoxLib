@@ -1,0 +1,1 @@
+data modify storage hblib.hitbox out set string storage hblib.hitbox modified 0 -1
