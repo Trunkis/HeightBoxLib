@@ -8,6 +8,7 @@ function hblib:internal/maths
 
 #Finalize
 execute store result storage hblib.hitbox modified double 0.01 run scoreboard players get #EyeHeight hblib.number
+scoreboard players remove #EyeHeight hblib.number 1
 
 #Remove "d"
 function hblib:internal/remove_d
