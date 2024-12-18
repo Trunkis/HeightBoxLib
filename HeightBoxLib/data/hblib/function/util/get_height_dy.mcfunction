@@ -6,9 +6,11 @@ function hblib:internal/summon_marker
 ##Maths
 function hblib:internal/maths
 
+#Function Specfic
+scoreboard players remove #EyeHeight hblib.number 1
+
 #Finalize
 execute store result storage hblib.hitbox modified double 0.01 run scoreboard players get #EyeHeight hblib.number
-scoreboard players remove #EyeHeight hblib.number 1
 
 #Remove "d"
 function hblib:internal/remove_d
