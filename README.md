@@ -2,11 +2,11 @@
  Hitbox related library for Minecraft: Java Edition that gets the height of an entity's hitbox
 
 ### How to use
- Execute as either yourself or any other entity and run `hblib:util/get_height` or any of it's variants.
+ Execute as either yourself or any other entity and run `hblib:util/get_accurate` or any of it's variants.
  You will get both the height of both the position of the entity's eye anchor and the entity's hitbox height (Original and Output)
 
  ### Variants
-  `hblib:util/get_accurate` | Gets the accurate height but is slower and does not have a no_uuid variant. Always reccomended as other variants may provide quicker results but at the cost of some accuracy.
+  `hblib:util/get_accurate` | Gets the accurate height but is slower and does not have a no_uuid variant. Always recommended as other variants will provide the ouput faster but at the cost of some accuracy.
 
  `hblib:util/get_height` | Gets height of entity's hitbox\
  `hblib:util/get_height_dy` | Height of entity's hitbox but subtracted by 0.01\
