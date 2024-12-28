@@ -15,4 +15,4 @@ execute store result storage hblib.hitbox modified double 0.01 run scoreboard pl
 data modify storage hblib.hitbox out set string storage hblib.hitbox modified 0 -1
 
 #Info
-tellraw @a[scores={hblib.debug=1}] ["",{"selector":"@s","color":"blue"},{"text":"\n"},{"storage":"hblib.hitbox","nbt":"original","color":"red"},{"text":" (Original Value)\n"},{"storage":"hblib.hitbox","nbt":"out","color":"gold"},{"text":" (Output)"}]
+function hblib:zinternal/info
