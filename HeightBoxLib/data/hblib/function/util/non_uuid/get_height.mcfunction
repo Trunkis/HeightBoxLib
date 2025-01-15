@@ -13,4 +13,4 @@ execute store result storage hblib.hitbox full double 0.01 run data get storage 
 function hblib:zinternal/remove_d
 
 #Info
-tellraw @a[scores={hblib.debug=1}] ["",{"selector":"@s","color":"blue"},{"text":"\n"},{"storage":"hblib.hitbox","nbt":"original","color":"red"},{"text":" (Original Value)\n"},{"storage":"hblib.hitbox","nbt":"out","color":"gold"},{"text":" (Output)"}]
+function hblib:zinternal/info
