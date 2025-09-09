@@ -1,2 +1,0 @@
-execute positioned 0.0 0.0 0.0 rotated ~ 0 anchored eyes positioned ^ ^ ^ run summon marker ~ ~ ~ {Tags:["hblib.hitbox"]}
-execute as @e[limit=1,type=marker,tag=hblib.hitbox] run function hblib:zinternal/as_marker
