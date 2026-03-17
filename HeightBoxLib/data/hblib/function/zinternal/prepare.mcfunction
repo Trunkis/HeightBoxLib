@@ -1,3 +1,3 @@
 tag @s add hblib.target
-function hblib:zinternal/start with storage hblib:hitbox
+$execute positioned ~ ~$(eye) ~ summon marker run function hblib:zinternal/start
 tag @s remove hblib.target

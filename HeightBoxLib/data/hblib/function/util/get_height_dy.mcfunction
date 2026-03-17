@@ -4,7 +4,7 @@
 execute positioned 0.0 0.0 0.0 anchored eyes positioned ^ ^ ^ summon marker run function hblib:zinternal/get_eye
 
 ##Prepare to get output
-function hblib:zinternal/prepare
+function hblib:zinternal/prepare with storage hblib:hitbox
 
 #Function Specfic
 scoreboard players remove #Total hblib.number 1

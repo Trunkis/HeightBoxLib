@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format":86,
+        "pack_format":101,
         "description": "Hitbox related library for calculating the height of a entity's hitbox"
     }
 }
